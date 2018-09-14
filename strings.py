@@ -12,3 +12,15 @@ hamilton_quote = """ The people said, "this kid's is insane" """
 
 # \' allows for an apostrophe
 # \t creates a tab button space
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+name = "Anthony "
+orphan_fee = 200
+teddy_bear_fee = 121.80
+
+total = orphan_fee + teddy_bear_fee
+
+# print(name, " the total will be ", total)
+
+print(f"{name} the total is {total:.2f}")
