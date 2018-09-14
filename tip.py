@@ -1,10 +1,10 @@
-total = float(input(" What is your bill total? "))
-# the above total variable is an input that accepts floats
+total = float(input(" What is your bill total? ").strip('$'))
+# the above total variable is an input string into a float with a $ being taken away
 
 fifteen = int(total) * 0.15
 eightteen = int(total) * 0.18
 twenty = int(total) * 0.20
-# the above lines turn the total variable into an integer times the percentage
+# the above lines turn the total variable into an integer times the tip percentage
 
 print(f" ${fifteen:.2f} is the suggested tip for 15%")
 print(f" ${eightteen:.2f} is the suggested tip for 18%")
