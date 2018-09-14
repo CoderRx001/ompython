@@ -7,7 +7,7 @@
 # < less than
 # > more than 
 
-print ("what is the the meaning to life, the universe, and everything?", (40 + 30 - 7) * 2 / 3)
+print ("what is the the meaning to life, the universe, and everything?", int((40 + 30 - 7) * 2 / 3))
 
 print (" is it true that 5 * 2 > 3 * 4?")
 
