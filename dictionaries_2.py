@@ -6,7 +6,7 @@ animal_sounds = {
     "dog": ['bark', 'woof'],
     "fox": []
 }
-
+# above is a dictionary of lists
 
 ant = {'name': 'Ant', 'height': 70, 'shoes': 12, 'hair': 'brown', 'eyes': 'brown'}
 oscar = {'name': 'Oscar', 'height': 68, 'shoes': 11, 'hair': 'brown', 'eyes': 'brown'}
