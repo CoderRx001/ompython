@@ -10,6 +10,7 @@ def get_current_weather(address):
         return f"Today is {forecast.time} currently {forecast.summary} {forecast.icon} at {forecast.temperature} degrees, with a chance for rain of {forecast.precipProbability}."
     else:
         return "Location not found"
+# the if & else get rid of the error from line 18 for the empty address
 
 print(get_current_weather("New York, NY"))
 print(get_current_weather("Los Angeles, CA"))
